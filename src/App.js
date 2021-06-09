@@ -14,6 +14,7 @@ import ShoppingCart from "./ShoppingCart";
 function App() {
   const [products] = useState(data);
   const [cart, setCart] = useState([]);
+  console.log(cart)
 
   const addItem = (item) => {
     setCart([...cart, item]);
